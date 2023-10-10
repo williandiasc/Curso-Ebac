@@ -1,0 +1,43 @@
+Algoritmo HoraDeAcordarAteTomarCafe
+Var
+   horaAtual: inteiro
+
+Inicio
+   horaAtual <- 6  // Hora de acordar às 06h00
+
+   // Etapa 1: Acordar
+   Escreva("1. Hora de acordar!")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 1
+
+   // Etapa 2: Levantar da cama e arrumar a cama
+   Escreva("2. Levantar da cama e se preparar para o dia. Primeiro passo é arrumar a cama.")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 0.5
+
+   // Etapa 3: Fazer exercícios matinais
+   Escreva("3. Fazer exercícios matinais")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 0.5
+
+   // Etapa 4: Tomar banho
+   Escreva("4. Tomar banho")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 0.5
+
+   // Etapa 5: Vestir-se
+   Escreva("5. Vestir-se")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 0.5
+
+   // Etapa 6: Preparar o café da manhã
+   Escreva("6. Preparar o café da manhã")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+   horaAtual <- horaAtual + 0.5
+
+   // Etapa 7: Tomar café da manhã
+   Escreva("7. Tomar café da manhã")
+   Escreva("   Hora atual: ", horaAtual, " horas")
+
+   // Fim do algoritmo
+FimAlgoritmo
